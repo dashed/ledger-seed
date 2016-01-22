@@ -1,0 +1,33 @@
+2012/10/01 Buying some Bitcoins
+   Assets:Wallet                    10 BTC @ $10.00
+   Income:Sales
+
+2012/11/01 Selling half of my Bitcoins with large gains
+   Assets:Checking                 $277.50
+   ; denote which "lot" to sell from
+   ; see 5.16 - 5.19 in v3.0 docs
+   Assets:Wallet                   -5 BTC {$10.00} [2012/10/01] @ $55.5
+   Income:Capital Gains
+
+2012/11/01 Selling a bit more
+   Assets:Checking                 $92.37
+   Assets:Wallet                    -1.847463 BTC {$10.00} [2012/10/01] @ $50
+   Income:Capital Gains
+
+2012/11/04 Buying another lot at a different cost
+   Assets:Wallet                    1 BTC @ $40
+   Income:Sales
+
+2012/11/08 Selling from new lot
+   Assets:Checking                 $3.36
+   Assets:Wallet                    -0.112 BTC {$40.00} [2012/11/04] @ $30
+   Income:Capital Gains
+
+2012/11/10 Buying a final lot that we'll flip quickly
+   Assets:Wallet                    15 BTC @ $35
+   Income:Sales
+
+2012/11/12 Selling a full final lot
+   Assets:Checking                  $600
+   Assets:Wallet                    -15 BTC {$35.00} [2012/11/10] @ $40
+   Income:Capital Gains
